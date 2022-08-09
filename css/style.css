@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1100px;
+    height: 1500px;
+    margin: 0 auto;
+}
+.header{
+    width: 1100px;
+    height: 133px;
+    background-color: #333333;
+    float: left;
+}
+.header .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 25px;
+}
+.header .logo{
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+}
+.header .menu ul{
+    
+}
+.header .menu ul li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+
+
+}
+.header .menu ul li a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+.header .menu ul li a:hover{
+    color: #00aeef;
+}
+
+/* BOX 1 */
+.contant .box1__class{
+    width: 1100px;
+    height: 200px;
+    border-bottom: 2px dotted #333333;
+    padding-left: 71px;
+    padding-top: 45px;
+    padding-bottom: 67px;
+}
+
+.contant .box1__class h1{
+    color: #333333;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+.contant .box1__class h1 span{
+    color: #00aeef;
+}
+.contant .box1__class p{
+    color: #bbbbbb;
+    font-weight: 200;
+    font-size: 35px; 
+}
+/* BOX 1 */
+
+/* BOX 2 */
+.contant .box2__class{
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px dotted #333333;
+    padding: 45px;
+    padding-left: 71px;
+}
+.contant .box2__class p{
+    font-size: 26px;
+    font-weight: 400;
+    color: #555555;
+}
+.contant .box2__class p span{
+    font-weight: 800;
+    color: #333;
+}
+
+/* BOX 2 */
+
+/* BOX 3 */
+.contant .box3__class{
+    width: 1100px;
+    height: 450px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.contant .box3__class .block1{
+    width: 279px;
+    height: 370px;
+    padding: 20px;
+    background-color: #00aeef;
+    float: left;
+    box-shadow: 7px 7px 7px #555555;
+}
+.contant .box3__class .block1 .title{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    border-bottom: 1px dotted white;
+    padding-bottom: 15px;
+}
+.contant .box3__class .block1 .text{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.contant .box3__class .block1 .button{
+    width: 236px;
+    height: 42px;
+    padding: 10px 25px;
+    background-color: #0076a3;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+/* BOX 3 */
+
+/* BOX 4 */
+.box4__class{
+    width: 1100px;
+    height: 430px;
+    margin: 39px 0;
+    padding-top: 30px;
+    border-top: 2px dotted #333333;
+    border-bottom: 2px dotted #333333;
+}
+.inbox__class:first-child{
+    width: 535px; 
+    border-right: 1px dotted #333333;
+}
+.inbox__class {
+    height: 400px;
+    width: 546px;
+    float: left;
+}
+.box4__class .inbox__class .title{
+    font-size: 24px;
+    font-weight: 300;
+}
+.inblock1 .img{
+    float: left;
+    margin-right: 10px;
+}
+.inblock1 .information .text{
+    font-size: small;
+    margin-bottom: 7px;
+}
+.inblock1 .information .title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.inblock1 .information .suptitle{
+    font-size: 14px;
+    font-weight: 400;
+    color: #00aeef;
+}
+
+.inbox__class .suptitle{
+    color: #555555;
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.inbox__class .text{
+    color: #555555;
+    font-weight: 300;
+    font-size: 15px;
+}
+.inbox__class img{
+    box-shadow: 2px 2px 2px #555555;
+}
+.inbox__class a{
+    color: #00aeef;
+    font-weight: 400;
+    font-size: 15px;
+}
+.second_inbox__class{
+    margin-left: 15px;
+}
+
+/* BOX 4 */
+
+/* Footer */
+.footer p{
+    position: relative;
+    top: -25px;
+}
+/* Footer */
+
+
+
+@media screen and (max-width: 500px){
+    .container, .header, .contant, .footer{
+        width: 100%;
+    }
+    .container .header .logo{
+        font-size: 35px;
+    }
+    .container .header .menu{
+        display: block;
+        text-align: center;
+        margin-top: -15px;
+    }
+    .contant .box1__class{
+        width: 100%;
+        padding-left: 30px;
+        height: 150px;
+    }
+    .contant .box1__class h1{
+        font-size: 25px;
+    }
+    .contant .box1__class p{
+        font-size: 20px;
+    }
+    .contant .box2__class{
+        width: 100%;
+        padding: 35px;
+        padding-left: 30px;
+        height: 250px;
+    }
+    .contant .box2__class p{
+        font-size: 20px;
+    }
+
+    .contant .box3__class{
+        width: 90%;
+        height: 1100px;
+        display: block;
+    }
+    .contant .box3__class .block1{
+        width: 80%;
+        height: 320px;
+        float: none;
+        clear: both;
+        margin: 0 70px;
+        margin-bottom: 15px;
+    }
+    .contant .box3__class .block1 .button{
+        margin-left: 35px;
+    }
+    .contant .box4__class{
+        width: 100%;
+        height: 880px;
+    }
+    .contant .box4__class .inbox__class:first-child{
+        border-bottom: 2px dotted black;
+        margin-bottom: 25px;
+        margin-left: 15px;
+    }
+    .contant .box4__class .second_inbox__class{
+        margin-left: 15px;
+    }
+        .contant .box4__class .inbox__class{
+        width: 94%;
+        display: block;
+        border-right: none;
+    }
+    .footer p{
+        margin-left: 15px;
+    }
+}
